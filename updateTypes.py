@@ -46,6 +46,6 @@ typeDictionary = read_types_into_dict(file_path)
 print(f"Created type dictionary with {len(typeDictionary.keys())} entries")
 
 file_path = 'csv/my_pokemon_forms.csv'
-typeDictionary = add_types_to_forms_sheet(file_path)
+add_types_to_forms_sheet(file_path)
 
 print(f"Updating {file_path} with Pokemon types")
