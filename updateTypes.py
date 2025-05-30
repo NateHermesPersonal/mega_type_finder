@@ -1,0 +1,1 @@
+print("Updating forms file with types")
