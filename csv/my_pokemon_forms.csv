@@ -322,7 +322,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 321,wailord,,321,5,1,0,0,1,460,0,11,0
 322,numel,,322,5,1,0,0,1,461,1,10,5
 323,camerupt,,323,5,1,0,0,1,462,0,10,5
-324,torkoal,,324,5,1,0,0,1,464,0,10,0
+324,torkoal,,324,5,1,0,0,1,464,1,10,0
 325,spoink,,325,5,1,0,0,1,465,0,14,0
 326,grumpig,,326,5,1,0,0,1,466,0,14,0
 327,spinda,,327,5,1,0,0,1,467,0,1,0
@@ -415,7 +415,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 414,mothim-plant,plant,414,8,1,0,0,1,575,0,7,3
 415,combee,,415,8,1,0,0,1,578,0,7,3
 416,vespiquen,,416,8,1,0,0,1,579,0,7,3
-417,pachirisu,,417,8,1,0,0,1,580,0,13,0
+417,pachirisu,,417,8,1,0,0,1,580,1,13,0
 418,buizel,,418,8,1,0,0,1,581,0,11,0
 419,floatzel,,419,8,1,0,0,1,582,0,11,0
 420,cherubi,,420,8,1,0,0,1,583,0,12,0
@@ -670,7 +670,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 669,flabebe-red,red,669,15,1,0,0,1,921,1,18,0
 670,floette-red,red,670,15,1,0,0,1,926,0,18,0
 671,florges-red,red,671,15,1,0,0,1,932,0,18,0
-672,skiddo,,672,15,1,0,0,1,937,0,12,0
+672,skiddo,,672,15,1,0,0,1,937,1,12,0
 673,gogoat,,673,15,1,0,0,1,938,0,12,0
 674,pancham,,674,15,1,0,0,1,939,1,2,0
 675,pangoro,,675,15,1,0,0,1,940,0,2,17
@@ -705,7 +705,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 704,goomy,,704,15,1,0,0,1,979,0,16,0
 705,sliggoo,,705,15,1,0,0,1,980,0,16,0
 706,goodra,,706,15,1,0,0,1,981,0,16,0
-707,klefki,,707,15,1,0,0,1,982,0,9,18
+707,klefki,,707,15,1,0,0,1,982,1,9,18
 708,phantump,,708,15,1,0,0,1,983,0,8,12
 709,trevenant,,709,15,1,0,0,1,984,0,8,12
 710,pumpkaboo-average,average,710,15,1,0,0,1,985,0,8,12
