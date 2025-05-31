@@ -33,7 +33,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 32,nidoran-m,,32,1,1,0,0,1,61,0,4,0
 33,nidorino,,33,1,1,0,0,1,62,0,4,0
 34,nidoking,,34,1,1,0,0,1,63,0,4,5
-35,clefairy,,35,1,1,0,0,1,65,0,18,0
+35,clefairy,,35,1,1,0,0,1,65,1,18,0
 36,clefable,,36,1,1,0,0,1,66,0,18,0
 37,vulpix,,37,1,1,0,0,1,67,0,10,0
 38,ninetales,,38,1,1,0,0,1,69,0,10,0
@@ -64,13 +64,13 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 63,abra,,63,1,1,0,0,1,104,0,14,0
 64,kadabra,,64,1,1,0,0,1,105,0,14,0
 65,alakazam,,65,1,1,0,0,1,106,0,14,0
-66,machop,,66,1,1,0,0,1,108,0,2,0
+66,machop,,66,1,1,0,0,1,108,1,2,0
 67,machoke,,67,1,1,0,0,1,109,0,2,0
 68,machamp,,68,1,1,0,0,1,110,0,2,0
 69,bellsprout,,69,1,1,0,0,1,111,0,12,4
 70,weepinbell,,70,1,1,0,0,1,112,0,12,4
 71,victreebel,,71,1,1,0,0,1,113,0,12,4
-72,tentacool,,72,1,1,0,0,1,114,0,11,4
+72,tentacool,,72,1,1,0,0,1,114,1,11,4
 73,tentacruel,,73,1,1,0,0,1,115,0,11,4
 74,geodude,,74,1,1,0,0,1,116,0,6,5
 75,graveler,,75,1,1,0,0,1,118,0,6,5
@@ -123,7 +123,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 122,mr-mime,,122,1,1,0,0,1,195,0,14,18
 123,scyther,,123,1,1,0,0,1,197,0,7,3
 124,jynx,,124,1,1,0,0,1,201,0,15,14
-125,electabuzz,,125,1,1,0,0,1,203,0,13,0
+125,electabuzz,,125,1,1,0,0,1,203,1,13,0
 126,magmar,,126,1,1,0,0,1,206,0,10,0
 127,pinsir,,127,1,1,0,0,1,208,0,7,0
 128,tauros,,128,1,1,0,0,1,210,0,1,0
@@ -174,7 +174,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 173,cleffa,,173,3,1,0,0,1,64,0,18,0
 174,igglybuff,,174,3,1,0,0,1,71,0,1,18
 175,togepi,,175,3,1,0,0,1,269,0,18,0
-176,togetic,,176,3,1,0,0,1,270,0,18,3
+176,togetic,,176,3,1,0,0,1,270,1,18,3
 177,natu,,177,3,1,0,0,1,272,0,14,3
 178,xatu,,178,3,1,0,0,1,273,0,14,3
 179,mareep,,179,3,1,0,0,1,274,0,13,0
@@ -214,11 +214,11 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 213,shuckle,,213,3,1,0,0,1,337,0,7,6
 214,heracross,,214,3,1,0,0,1,338,0,7,2
 215,sneasel,,215,3,1,0,0,1,340,0,17,15
-216,teddiursa,,216,3,1,0,0,1,342,0,1,0
+216,teddiursa,,216,3,1,0,0,1,342,1,1,0
 217,ursaring,,217,3,1,0,0,1,343,0,1,0
 218,slugma,,218,3,1,0,0,1,344,0,10,0
 219,magcargo,,219,3,1,0,0,1,345,0,10,6
-220,swinub,,220,3,1,0,0,1,346,0,15,5
+220,swinub,,220,3,1,0,0,1,346,1,15,5
 221,piloswine,,221,3,1,0,0,1,347,0,15,5
 222,corsola,,222,3,1,0,0,1,349,0,11,6
 223,remoraid,,223,3,1,0,0,1,351,0,11,0
@@ -226,7 +226,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 225,delibird,,225,3,1,0,0,1,353,0,15,3
 226,mantine,,226,3,1,0,0,1,355,0,11,3
 227,skarmory,,227,3,1,0,0,1,356,0,9,3
-228,houndour,,228,3,1,0,0,1,357,0,17,10
+228,houndour,,228,3,1,0,0,1,357,1,17,10
 229,houndoom,,229,3,1,0,0,1,358,0,17,10
 230,kingdra,,230,3,1,0,0,1,189,0,11,16
 231,phanpy,,231,3,1,0,0,1,360,0,5,0
@@ -301,7 +301,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 300,skitty,,300,5,1,0,0,1,431,0,1,0
 301,delcatty,,301,5,1,0,0,1,432,0,1,0
 302,sableye,,302,5,1,0,0,1,433,0,17,8
-303,mawile,,303,5,1,0,0,1,435,0,9,18
+303,mawile,,303,5,1,0,0,1,435,1,9,18
 304,aron,,304,5,1,0,0,1,437,0,9,6
 305,lairon,,305,5,1,0,0,1,438,0,9,6
 306,aggron,,306,5,1,0,0,1,439,0,9,6
@@ -314,13 +314,13 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 313,volbeat,,313,5,1,0,0,1,449,0,7,0
 314,illumise,,314,5,1,0,0,1,450,0,7,0
 315,roselia,,315,5,1,0,0,1,452,0,12,4
-316,gulpin,,316,5,1,0,0,1,454,0,4,0
+316,gulpin,,316,5,1,0,0,1,454,1,4,0
 317,swalot,,317,5,1,0,0,1,455,0,4,0
 318,carvanha,,318,5,1,0,0,1,456,0,11,17
 319,sharpedo,,319,5,1,0,0,1,457,0,11,17
 320,wailmer,,320,5,1,0,0,1,459,0,11,0
 321,wailord,,321,5,1,0,0,1,460,0,11,0
-322,numel,,322,5,1,0,0,1,461,0,10,5
+322,numel,,322,5,1,0,0,1,461,1,10,5
 323,camerupt,,323,5,1,0,0,1,462,0,10,5
 324,torkoal,,324,5,1,0,0,1,464,0,10,0
 325,spoink,,325,5,1,0,0,1,465,0,14,0
@@ -353,7 +353,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 352,kecleon,,352,5,1,0,0,1,496,0,1,0
 353,shuppet,,353,5,1,0,0,1,497,0,8,0
 354,banette,,354,5,1,0,0,1,498,0,8,0
-355,duskull,,355,5,1,0,0,1,500,0,8,0
+355,duskull,,355,5,1,0,0,1,500,1,8,0
 356,dusclops,,356,5,1,0,0,1,501,0,8,0
 357,tropius,,357,5,1,0,0,1,503,0,12,3
 358,chimecho,,358,5,1,0,0,1,505,0,14,0
@@ -361,7 +361,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 360,wynaut,,360,5,1,0,0,1,326,0,14,0
 361,snorunt,,361,5,1,0,0,1,508,0,15,0
 362,glalie,,362,5,1,0,0,1,509,0,15,0
-363,spheal,,363,5,1,0,0,1,512,0,15,11
+363,spheal,,363,5,1,0,0,1,512,1,15,11
 364,sealeo,,364,5,1,0,0,1,513,0,15,11
 365,walrein,,365,5,1,0,0,1,514,0,15,11
 366,clamperl,,366,5,1,0,0,1,515,0,11,0
@@ -391,7 +391,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 390,chimchar,,390,8,1,0,0,1,549,0,10,0
 391,monferno,,391,8,1,0,0,1,550,0,10,2
 392,infernape,,392,8,1,0,0,1,551,0,10,2
-393,piplup,,393,8,1,0,0,1,552,0,11,0
+393,piplup,,393,8,1,0,0,1,552,1,11,0
 394,prinplup,,394,8,1,0,0,1,553,0,11,0
 395,empoleon,,395,8,1,0,0,1,554,0,11,9
 396,starly,,396,8,1,0,0,1,555,0,1,3
@@ -457,7 +457,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 456,finneon,,456,8,1,0,0,1,617,0,11,0
 457,lumineon,,457,8,1,0,0,1,618,0,11,0
 458,mantyke,,458,8,1,0,0,1,354,0,11,3
-459,snover,,459,8,1,0,0,1,619,0,12,15
+459,snover,,459,8,1,0,0,1,619,1,12,15
 460,abomasnow,,460,8,1,0,0,1,620,0,12,15
 461,weavile,,461,8,1,0,0,1,341,0,17,15
 462,magnezone,,462,8,1,0,0,1,135,0,13,9
@@ -515,7 +515,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 514,simisear,,514,11,1,0,0,1,682,0,10,0
 515,panpour,,515,11,1,0,0,1,683,0,11,0
 516,simipour,,516,11,1,0,0,1,684,0,11,0
-517,munna,,517,11,1,0,0,1,685,0,14,0
+517,munna,,517,11,1,0,0,1,685,1,14,0
 518,musharna,,518,11,1,0,0,1,686,0,14,0
 519,pidove,,519,11,1,0,0,1,687,0,1,3
 520,tranquill,,520,11,1,0,0,1,688,0,1,3
@@ -541,7 +541,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 540,sewaddle,,540,11,1,0,0,1,709,0,7,12
 541,swadloon,,541,11,1,0,0,1,710,0,7,12
 542,leavanny,,542,11,1,0,0,1,711,0,7,12
-543,venipede,,543,11,1,0,0,1,712,0,7,4
+543,venipede,,543,11,1,0,0,1,712,1,7,4
 544,whirlipede,,544,11,1,0,0,1,713,0,7,4
 545,scolipede,,545,11,1,0,0,1,714,0,7,4
 546,cottonee,,546,11,1,0,0,1,715,0,12,18
@@ -557,7 +557,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 556,maractus,,556,11,1,0,0,1,730,0,12,0
 557,dwebble,,557,11,1,0,0,1,731,0,7,6
 558,crustle,,558,11,1,0,0,1,732,0,7,6
-559,scraggy,,559,11,1,0,0,1,733,0,17,2
+559,scraggy,,559,11,1,0,0,1,733,1,17,2
 560,scrafty,,560,11,1,0,0,1,734,0,17,2
 561,sigilyph,,561,11,1,0,0,1,735,0,14,3
 562,yamask,,562,11,1,0,0,1,736,0,8,0
@@ -572,7 +572,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 571,zoroark,,571,11,1,0,0,1,746,0,17,0
 572,minccino,,572,11,1,0,0,1,747,0,1,0
 573,cinccino,,573,11,1,0,0,1,748,0,1,0
-574,gothita,,574,11,1,0,0,1,749,0,14,0
+574,gothita,,574,11,1,0,0,1,749,1,14,0
 575,gothorita,,575,11,1,0,0,1,750,0,14,0
 576,gothitelle,,576,11,1,0,0,1,751,0,14,0
 577,solosis,,577,11,1,0,0,1,752,0,14,0
@@ -603,7 +603,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 602,tynamo,,602,11,1,0,0,1,783,0,13,0
 603,eelektrik,,603,11,1,0,0,1,784,0,13,0
 604,eelektross,,604,11,1,0,0,1,785,0,13,0
-605,elgyem,,605,11,1,0,0,1,786,0,14,0
+605,elgyem,,605,11,1,0,0,1,786,1,14,0
 606,beheeyem,,606,11,1,0,0,1,787,0,14,0
 607,litwick,,607,11,1,0,0,1,788,0,8,10
 608,lampent,,608,11,1,0,0,1,789,0,8,10
@@ -617,10 +617,10 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 616,shelmet,,616,11,1,0,0,1,797,0,7,0
 617,accelgor,,617,11,1,0,0,1,798,0,7,0
 618,stunfisk,,618,11,1,0,0,1,799,0,5,13
-619,mienfoo,,619,11,1,0,0,1,801,0,2,0
+619,mienfoo,,619,11,1,0,0,1,801,1,2,0
 620,mienshao,,620,11,1,0,0,1,802,0,2,0
 621,druddigon,,621,11,1,0,0,1,803,0,16,0
-622,golett,,622,11,1,0,0,1,804,0,5,8
+622,golett,,622,11,1,0,0,1,804,1,5,8
 623,golurk,,623,11,1,0,0,1,805,0,5,8
 624,pawniard,,624,11,1,0,0,1,806,0,17,9
 625,bisharp,,625,11,1,0,0,1,807,0,17,9
@@ -648,7 +648,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 647,keldeo-ordinary,ordinary,647,11,1,0,0,1,834,0,11,2
 648,meloetta-aria,aria,648,11,1,0,0,1,836,0,1,14
 649,genesect,,649,11,1,0,0,1,838,0,7,9
-650,chespin,,650,15,1,0,0,1,843,0,12,0
+650,chespin,,650,15,1,0,0,1,843,1,12,0
 651,quilladin,,651,15,1,0,0,1,844,0,12,0
 652,chesnaught,,652,15,1,0,0,1,845,0,12,2
 653,fennekin,,653,15,1,0,0,1,846,0,10,0
@@ -659,7 +659,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 658,greninja,,658,15,1,0,0,1,851,0,11,17
 659,bunnelby,,659,15,1,0,0,1,854,0,1,0
 660,diggersby,,660,15,1,0,0,1,855,0,1,5
-661,fletchling,,661,15,1,0,0,1,856,0,1,3
+661,fletchling,,661,15,1,0,0,1,856,1,1,3
 662,fletchinder,,662,15,1,0,0,1,857,0,10,3
 663,talonflame,,663,15,1,0,0,1,858,0,10,3
 664,scatterbug-icy-snow,icy-snow,664,15,1,0,0,1,859,0,7,0
@@ -667,12 +667,12 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 666,vivillon-meadow,meadow,666,15,1,0,0,7,905,0,7,3
 667,litleo,,667,15,1,0,0,1,919,0,10,1
 668,pyroar,,668,15,1,0,0,1,920,0,10,1
-669,flabebe-red,red,669,15,1,0,0,1,921,0,18,0
+669,flabebe-red,red,669,15,1,0,0,1,921,1,18,0
 670,floette-red,red,670,15,1,0,0,1,926,0,18,0
 671,florges-red,red,671,15,1,0,0,1,932,0,18,0
 672,skiddo,,672,15,1,0,0,1,937,0,12,0
 673,gogoat,,673,15,1,0,0,1,938,0,12,0
-674,pancham,,674,15,1,0,0,1,939,0,2,0
+674,pancham,,674,15,1,0,0,1,939,1,2,0
 675,pangoro,,675,15,1,0,0,1,940,0,2,17
 676,furfrou-natural,natural,676,15,1,0,0,1,941,0,1,0
 677,espurr,,677,15,1,0,0,1,951,0,14,0
@@ -688,7 +688,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 687,malamar,,687,15,1,0,0,1,963,0,17,14
 688,binacle,,688,15,1,0,0,1,964,0,6,11
 689,barbaracle,,689,15,1,0,0,1,965,0,6,11
-690,skrelp,,690,15,1,0,0,1,966,0,4,11
+690,skrelp,,690,15,1,0,0,1,966,1,4,11
 691,dragalge,,691,15,1,0,0,1,967,0,4,16
 692,clauncher,,692,15,1,0,0,1,968,0,11,0
 693,clawitzer,,693,15,1,0,0,1,969,0,11,0
@@ -700,8 +700,8 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 699,aurorus,,699,15,1,0,0,1,975,0,6,15
 700,sylveon,,700,15,1,0,0,1,225,0,18,0
 701,hawlucha,,701,15,1,0,0,1,976,0,2,3
-702,dedenne,,702,15,1,0,0,1,977,0,13,18
-703,carbink,,703,15,1,0,0,1,978,0,6,18
+702,dedenne,,702,15,1,0,0,1,977,1,13,18
+703,carbink,,703,15,1,0,0,1,978,1,6,18
 704,goomy,,704,15,1,0,0,1,979,0,16,0
 705,sliggoo,,705,15,1,0,0,1,980,0,16,0
 706,goodra,,706,15,1,0,0,1,981,0,16,0
@@ -710,7 +710,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 709,trevenant,,709,15,1,0,0,1,984,0,8,12
 710,pumpkaboo-average,average,710,15,1,0,0,1,985,0,8,12
 711,gourgeist-average,average,711,15,1,0,0,1,989,0,8,12
-712,bergmite,,712,15,1,0,0,1,993,0,15,0
+712,bergmite,,712,15,1,0,0,1,993,1,15,0
 713,avalugg,,713,15,1,0,0,1,994,0,15,0
 714,noibat,,714,15,1,0,0,1,995,0,3,16
 715,noivern,,715,15,1,0,0,1,996,0,3,16
@@ -726,7 +726,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 725,litten,,725,17,1,0,0,1,1013,0,10,0
 726,torracat,,726,17,1,0,0,1,1014,0,10,0
 727,incineroar,,727,17,1,0,0,1,1015,0,10,17
-728,popplio,,728,17,1,0,0,1,1016,0,11,0
+728,popplio,,728,17,1,0,0,1,1016,1,11,0
 729,brionne,,729,17,1,0,0,1,1017,0,11,0
 730,primarina,,730,17,1,0,0,1,1018,0,11,18
 731,pikipek,,731,17,1,0,0,1,1019,0,1,3
@@ -737,7 +737,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 736,grubbin,,736,17,1,0,0,1,1025,0,7,0
 737,charjabug,,737,17,1,0,0,1,1026,0,7,13
 738,vikavolt,,738,17,1,0,0,1,1027,0,7,13
-739,crabrawler,,739,17,1,0,0,1,1029,0,2,0
+739,crabrawler,,739,17,1,0,0,1,1029,1,2,0
 740,crabominable,,740,17,1,0,0,1,1030,0,2,15
 741,oricorio-baile,baile,741,17,1,0,0,1,1031,0,10,3
 742,cutiefly,,742,17,1,0,0,1,1035,0,7,18
@@ -745,7 +745,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 744,rockruff,,744,17,1,0,0,1,1038,0,6,0
 745,lycanroc-midday,midday,745,17,1,0,0,1,1040,0,6,0
 746,wishiwashi-solo,solo,746,17,1,0,0,1,1043,0,11,0
-747,mareanie,,747,17,1,0,0,1,1045,0,4,11
+747,mareanie,,747,17,1,0,0,1,1045,1,4,11
 748,toxapex,,748,17,1,0,0,1,1046,0,4,11
 749,mudbray,,749,17,1,0,0,1,1047,0,5,0
 750,mudsdale,,750,17,1,0,0,1,1048,0,5,0
@@ -753,7 +753,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 752,araquanid,,752,17,1,0,0,1,1050,0,11,7
 753,fomantis,,753,17,1,0,0,1,1052,0,12,0
 754,lurantis,,754,17,1,0,0,1,1053,0,12,0
-755,morelull,,755,17,1,0,0,1,1055,0,12,18
+755,morelull,,755,17,1,0,0,1,1055,1,12,18
 756,shiinotic,,756,17,1,0,0,1,1056,0,12,18
 757,salandit,,757,17,1,0,0,1,1057,0,4,10
 758,salazzle,,758,17,1,0,0,1,1058,0,4,10
@@ -907,7 +907,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 906,sprigatito,,906,25,1,0,0,1,1267,0,12,0
 907,floragato,,907,25,1,0,0,1,1268,0,12,0
 908,meowscarada,,908,25,1,0,0,1,1269,0,12,17
-909,fuecoco,,909,25,1,0,0,1,1270,0,10,0
+909,fuecoco,,909,25,1,0,0,1,1270,1,10,0
 910,crocalor,,910,25,1,0,0,1,1271,0,10,0
 911,skeledirge,,911,25,1,0,0,1,1272,0,10,8
 912,quaxly,,912,25,1,0,0,1,1273,0,11,0
@@ -994,7 +994,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 993,iron-jugulis,,993,25,1,0,0,1,1349,0,17,3
 994,iron-moth,,994,25,1,0,0,1,1347,0,10,4
 995,iron-thorns,,995,25,1,0,0,1,1350,0,6,13
-996,frigibax,,996,25,1,0,0,1,1310,0,16,15
+996,frigibax,,996,25,1,0,0,1,1310,1,16,15
 997,arctibax,,997,25,1,0,0,1,1311,0,16,15
 998,baxcalibur,,998,25,1,0,0,1,1312,0,16,15
 999,gimmighoul-chest,chest,999,25,1,0,0,1,1337,0,8,0
@@ -1126,9 +1126,9 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 10100,vivillon-sun,sun,666,15,0,0,0,16,914,0,7,3
 10101,vivillon-ocean,ocean,666,15,0,0,0,17,915,0,7,3
 10102,vivillon-jungle,jungle,666,15,0,0,0,18,916,0,7,3
-10103,flabebe-yellow,yellow,669,15,0,0,0,2,922,0,18,0
-10104,flabebe-orange,orange,669,15,0,0,0,3,923,0,18,0
-10105,flabebe-blue,blue,669,15,0,0,0,4,924,0,18,0
+10103,flabebe-yellow,yellow,669,15,0,0,0,2,922,1,18,0
+10104,flabebe-orange,orange,669,15,0,0,0,3,923,1,18,0
+10105,flabebe-blue,blue,669,15,0,0,0,4,924,1,18,0
 10106,flabebe-white,white,669,15,0,0,0,5,925,0,18,0
 10107,floette-yellow,yellow,670,15,0,0,0,2,927,0,18,0
 10108,floette-orange,orange,670,15,0,0,0,3,928,0,18,0
@@ -1226,7 +1226,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 10200,pikachu-kalos-cap,kalos-cap,10098,17,1,0,0,12,47,0,13,0
 10201,pikachu-alola-cap,alola-cap,10099,17,1,0,0,13,48,0,13,0
 10202,raichu-alola,alola,10100,17,1,0,0,2,53,0,13,14
-10203,sandshrew-alola,alola,10101,17,1,0,0,2,55,0,15,9
+10203,sandshrew-alola,alola,10101,17,1,0,0,2,55,1,15,9
 10204,sandslash-alola,alola,10102,17,1,0,0,2,57,0,15,9
 10205,vulpix-alola,alola,10103,17,1,0,0,2,68,0,15,0
 10206,ninetales-alola,alola,10104,17,1,0,0,2,70,0,15,18
