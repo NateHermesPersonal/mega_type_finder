@@ -38,9 +38,9 @@ def print_pokemon():
             for pokemon in megaPokemon[type]:
                 if pokemon not in megaPokemonBoost:
                     megaPokemonBoost[pokemon] = []
-                    for spawn in sortedSelectedPokemonByType[type]:
-                        if spawn not in megaPokemonBoost[pokemon]:
-                            megaPokemonBoost[pokemon].append(spawn)
+                for spawn in sortedSelectedPokemonByType[type]:
+                    if spawn not in megaPokemonBoost[pokemon]:
+                        megaPokemonBoost[pokemon].append(spawn)
     sortedMegaPokemonBoost = dict(sorted(megaPokemonBoost.items(), key=lambda item: len(item[1]), reverse=True))
     print("")
     for mega in sortedMegaPokemonBoost.keys():
