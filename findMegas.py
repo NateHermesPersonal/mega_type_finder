@@ -45,7 +45,7 @@ def print_pokemon():
     print("")
     for mega in sortedMegaPokemonBoost.keys():
         boostList = sortedMegaPokemonBoost[mega]
-        print(f"{mega} boosts {len(boostList)} Pokemon spawns: {', '.join(boostList)}")
+        print(f"{mega} boosts {len(boostList)} Pokemon spawn(s): {', '.join(boostList)}")
 
 
 build_type_dictionary('csv/types.csv')
