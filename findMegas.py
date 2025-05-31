@@ -3,6 +3,7 @@ import csv
 typeDictionary = {}
 selectedPokemonByType = {}
 megaPokemon = {}
+megaPokemonBoost = {}
 
 def build_type_dictionary(file_path):
     with open(file_path, mode='r') as file:
@@ -29,11 +30,22 @@ def parse_spreadsheet(file_path):
                     dictionary[row['type_2']].append(identifier)
 
 def print_pokemon():
-    sorted_dict = dict(sorted(selectedPokemonByType.items(), key=lambda item: len(item[1]), reverse=True))
-    for type in sorted_dict.keys():
-        listLength = len(sorted_dict[type])
+    sortedSelectedPokemonByType = dict(sorted(selectedPokemonByType.items(), key=lambda item: len(item[1]), reverse=True))
+    for type in sortedSelectedPokemonByType.keys():
+        listLength = len(sortedSelectedPokemonByType[type])
         if listLength > 0:
-            print(f"Type {typeDictionary[type]} has {listLength} spawn(s) ({','.join(sorted_dict[type])})")
+            print(f"Type {typeDictionary[type]} has {listLength} spawn(s): {', '.join(sortedSelectedPokemonByType[type])}")
+            for pokemon in megaPokemon[type]:
+                if pokemon not in megaPokemonBoost:
+                    megaPokemonBoost[pokemon] = []
+                    for spawn in sortedSelectedPokemonByType[type]:
+                        if spawn not in megaPokemonBoost[pokemon]:
+                            megaPokemonBoost[pokemon].append(spawn)
+    sortedMegaPokemonBoost = dict(sorted(megaPokemonBoost.items(), key=lambda item: len(item[1]), reverse=True))
+    print("")
+    for mega in sortedMegaPokemonBoost.keys():
+        boostList = sortedMegaPokemonBoost[mega]
+        print(f"{mega} boosts {len(boostList)} Pokemon spawns: {', '.join(boostList)}")
 
 
 build_type_dictionary('csv/types.csv')
@@ -42,4 +54,4 @@ print_pokemon()
 # print(megaPokemon)
 # sorted_dict = dict(sorted(megaPokemon.items(), key=lambda item: len(item[1]), reverse=True))
 # print(sorted_dict)
-print("Finding Megas")
+print("\nFound Megas which boost spawns")
