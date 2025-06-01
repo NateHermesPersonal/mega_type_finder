@@ -23,9 +23,9 @@ def parse_spreadsheet(file_path):
             identifier = row['identifier']
             if row['selected'] == '1' or row['is_mega'] == '1':
                 pokemonDictionaryByType[identifier] = []
-                pokemonDictionaryByType[identifier].append(row['type_1'])
+                pokemonDictionaryByType[identifier].append(typeDictionary[row['type_1']])
                 if row['type_2'] != '0':
-                    pokemonDictionaryByType[identifier].append(row['type_2'])
+                    pokemonDictionaryByType[identifier].append(typeDictionary[row['type_2']])
             if row['selected'] == '1':
                 dictionary = selectedPokemonByType
             elif row['is_mega'] == '1':
