@@ -3,6 +3,7 @@ import csv
 typeDictionary = {}
 selectedPokemonByType = {}
 megaPokemon = {}
+pokemonDictionaryByType = {}
 megaPokemonBoost = {}
 
 def build_type_dictionary(file_path):
@@ -20,6 +21,11 @@ def parse_spreadsheet(file_path):
         for row in csv_reader:
             dictionary = 0
             identifier = row['identifier']
+            if row['selected'] == '1' or row['is_mega'] == '1':
+                pokemonDictionaryByType[identifier] = []
+                pokemonDictionaryByType[identifier].append(typeDictionary[row['type_1']])
+                if row['type_2'] != '0':
+                    pokemonDictionaryByType[identifier].append(typeDictionary[row['type_2']])
             if row['selected'] == '1':
                 dictionary = selectedPokemonByType
             elif row['is_mega'] == '1':
@@ -45,7 +51,7 @@ def print_pokemon():
     print("")
     for mega in sortedMegaPokemonBoost.keys():
         boostList = sortedMegaPokemonBoost[mega]
-        print(f"{mega} boosts {len(boostList)} Pokemon spawn(s): {', '.join(boostList)}")
+        print(f"{mega} ({'/'.join(pokemonDictionaryByType[mega])}) boosts {len(boostList)} Pokemon spawn(s): {', '.join(boostList)}")
 
 
 build_type_dictionary('csv/types.csv')
