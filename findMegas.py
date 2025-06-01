@@ -51,7 +51,10 @@ def print_pokemon():
     print("")
     for mega in sortedMegaPokemonBoost.keys():
         boostList = sortedMegaPokemonBoost[mega]
-        print(f"{mega} ({'/'.join(pokemonDictionaryByType[mega])}) boosts {len(boostList)} Pokemon spawn(s): {', '.join(boostList)}")
+        boostListWithTypes = []
+        for b in boostList:
+            boostListWithTypes.append(f"{b} ({'/'.join(pokemonDictionaryByType[b])})")
+        print(f"{mega} ({'/'.join(pokemonDictionaryByType[mega])}) boosts {len(boostList)} Pokemon spawn(s): {', '.join(boostListWithTypes)}\n")
 
 
 build_type_dictionary('csv/types.csv')
