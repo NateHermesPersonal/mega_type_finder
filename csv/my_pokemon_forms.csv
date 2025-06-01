@@ -105,7 +105,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 104,cubone,,104,1,1,0,0,1,164,0,5,0
 105,marowak,,105,1,1,0,0,1,165,0,5,0
 106,hitmonlee,,106,1,1,0,0,1,169,0,2,0
-107,hitmonchan,,107,1,1,0,0,1,170,0,2,0
+107,hitmonchan,,107,1,1,0,0,1,170,1,2,0
 108,lickitung,,108,1,1,0,0,1,172,0,1,0
 109,koffing,,109,1,1,0,0,1,174,0,4,0
 110,weezing,,110,1,1,0,0,1,175,0,4,0
@@ -225,7 +225,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 224,octillery,,224,3,1,0,0,1,352,0,11,0
 225,delibird,,225,3,1,0,0,1,353,0,15,3
 226,mantine,,226,3,1,0,0,1,355,0,11,3
-227,skarmory,,227,3,1,0,0,1,356,0,9,3
+227,skarmory,,227,3,1,0,0,1,356,1,9,3
 228,houndour,,228,3,1,0,0,1,357,1,17,10
 229,houndoom,,229,3,1,0,0,1,358,0,17,10
 230,kingdra,,230,3,1,0,0,1,189,0,11,16
@@ -244,7 +244,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 243,raikou,,243,3,1,0,0,1,365,0,13,0
 244,entei,,244,3,1,0,0,1,366,0,10,0
 245,suicune,,245,3,1,0,0,1,367,0,11,0
-246,larvitar,,246,3,1,0,0,1,368,0,6,5
+246,larvitar,,246,3,1,0,0,1,368,1,6,5
 247,pupitar,,247,3,1,0,0,1,369,0,6,5
 248,tyranitar,,248,3,1,0,0,1,370,0,6,17
 249,lugia,,249,3,1,0,0,1,372,0,14,3
@@ -408,7 +408,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 407,roserade,,407,8,1,0,0,1,453,0,12,4
 408,cranidos,,408,8,1,0,0,1,565,0,6,0
 409,rampardos,,409,8,1,0,0,1,566,0,6,0
-410,shieldon,,410,8,1,0,0,1,567,0,6,9
+410,shieldon,,410,8,1,0,0,1,567,1,6,9
 411,bastiodon,,411,8,1,0,0,1,568,0,6,9
 412,burmy-plant,plant,412,8,1,0,0,1,569,0,7,0
 413,wormadam-plant,plant,413,8,1,0,0,1,572,0,7,12
@@ -614,7 +614,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 613,cubchoo,,613,11,1,0,0,1,794,0,15,0
 614,beartic,,614,11,1,0,0,1,795,0,15,0
 615,cryogonal,,615,11,1,0,0,1,796,0,15,0
-616,shelmet,,616,11,1,0,0,1,797,0,7,0
+616,shelmet,,616,11,1,0,0,1,797,1,7,0
 617,accelgor,,617,11,1,0,0,1,798,0,7,0
 618,stunfisk,,618,11,1,0,0,1,799,0,5,13
 619,mienfoo,,619,11,1,0,0,1,801,1,2,0
@@ -627,7 +627,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 626,bouffalant,,626,11,1,0,0,1,808,0,1,0
 627,rufflet,,627,11,1,0,0,1,809,0,1,3
 628,braviary,,628,11,1,0,0,1,810,0,1,3
-629,vullaby,,629,11,1,0,0,1,811,0,17,3
+629,vullaby,,629,11,1,0,0,1,811,1,17,3
 630,mandibuzz,,630,11,1,0,0,1,812,0,17,3
 631,heatmor,,631,11,1,0,0,1,813,0,10,0
 632,durant,,632,11,1,0,0,1,814,0,7,9
@@ -702,7 +702,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 701,hawlucha,,701,15,1,0,0,1,976,0,2,3
 702,dedenne,,702,15,1,0,0,1,977,1,13,18
 703,carbink,,703,15,1,0,0,1,978,1,6,18
-704,goomy,,704,15,1,0,0,1,979,0,16,0
+704,goomy,,704,15,1,0,0,1,979,1,16,0
 705,sliggoo,,705,15,1,0,0,1,980,0,16,0
 706,goodra,,706,15,1,0,0,1,981,0,16,0
 707,klefki,,707,15,1,0,0,1,982,1,9,18
@@ -763,7 +763,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 762,steenee,,762,17,1,0,0,1,1063,0,12,0
 763,tsareena,,763,17,1,0,0,1,1064,0,12,0
 764,comfey,,764,17,1,0,0,1,1065,0,18,0
-765,oranguru,,765,17,1,0,0,1,1066,0,1,14
+765,oranguru,,765,17,1,0,0,1,1066,1,1,14
 766,passimian,,766,17,1,0,0,1,1067,0,2,0
 767,wimpod,,767,17,1,0,0,1,1068,0,7,11
 768,golisopod,,768,17,1,0,0,1,1069,0,7,11
@@ -887,7 +887,7 @@ id,identifier,form_identifier,pokemon_id,introduced_in_version_group_id,is_defau
 886,drakloak,,886,20,1,0,0,1,1242,0,16,8
 887,dragapult,,887,20,1,0,0,1,1243,0,16,8
 888,zacian,,888,20,1,0,0,1,1244,0,18,0
-889,zamazenta,,889,20,1,0,0,1,1246,0,2,0
+889,zamazenta,,889,20,1,0,0,1,1246,1,2,0
 890,eternatus,,890,20,1,0,0,1,1248,0,4,16
 891,kubfu,,891,20,1,0,0,1,1250,0,2,0
 892,urshifu-single-strike,single-strike,892,20,1,0,0,1,1251,0,2,17
